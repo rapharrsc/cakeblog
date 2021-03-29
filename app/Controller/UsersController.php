@@ -9,7 +9,8 @@ class UsersController extends AppController {
 		$this->Auth->allow('add', 'logout');
 	}
 
-	public function login() {
+	public function login() 
+	{
 
 		if ($this->Auth->login()) {
 			return $this->redirect($this->Auth->redirectUrl());
@@ -18,8 +19,6 @@ class UsersController extends AppController {
 		{
 			$this->Flash->error(__('Invalid username or password, try again'));
 		}
-		
-
 	}
 
 	public function logout() {

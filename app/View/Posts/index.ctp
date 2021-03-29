@@ -4,6 +4,7 @@ $uid = $this->Session->read('Auth.User.id');
 $uname = $this->Session->read('Auth.User.username');
 //echo $uname;
 $urole = $this->Session->read('Auth.User.role');
+//echo $urole
 ?>
 
 <h1>Bem-Vindo <?= $uname ?> Nível de acesso: <?= $urole ?></h1>
@@ -18,11 +19,7 @@ $urole = $this->Session->read('Auth.User.role');
         <th>Crated By</th>
     </tr>
 
-    <!-- Here is where we loop through our $posts array, printing out post info -->
-
-    <?php 
-
-    foreach ($posts as $post): ?>
+    <?php foreach ($posts as $post): ?>
         <tr>
             <td><?php echo $post['Post']['id']; ?></td>
             <td>
@@ -33,7 +30,6 @@ $urole = $this->Session->read('Auth.User.role');
             <td>
 
                 <?php
-                
                 if ($uid === $post['Post']['user_id']) {
                     # code...
                     echo $this->Form->postLink(
@@ -49,12 +45,10 @@ $urole = $this->Session->read('Auth.User.role');
                         array('action' => 'edit', $post['Post']['id'])
                     );
                 }
-                
+
                 ?>
             </td>
-            
             <td><?php echo $post['Post']['created']; ?></td>
-
             <td><?php echo $post['Post']['modified']; ?></td>
             <td><?php echo $post['Post']['user_id']; ?></td>
         </tr>

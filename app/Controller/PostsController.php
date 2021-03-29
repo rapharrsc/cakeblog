@@ -12,7 +12,7 @@ class PostsController extends AppController {
 			return true;
 		}
 
-    	// The owner of a post can edit and delete it
+    	// O autor pode editar e deletar sua postagem
 		if (in_array($this->action, array('edit', 'delete'))) 
 		{
 			$postId = (int) $this->request->params['pass'][0];
@@ -25,6 +25,7 @@ class PostsController extends AppController {
 		return parent::isAuthorized($user);
 	}
 
+	//Visualizar postagem
 	public function view($id = null) {
 		if (!$id) {
 			throw new NotFoundException(__('Invalid post'));
@@ -41,9 +42,9 @@ class PostsController extends AppController {
 		
 	}
 
+	//Adicionar postagem
 	public function add() {
 		if ($this->request->is('post')) {
-        //Added this line
 			$this->request->data['Post']['user_id'] = $this->Auth->user('id');
 			if ($this->Post->save($this->request->data)) 
 			{
@@ -57,6 +58,7 @@ class PostsController extends AppController {
 		}
 	}
 
+	//Editar postagem
 	public function edit($id = null) {
 		if (!$id) 
 		{

@@ -40,7 +40,6 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		<div id="header">
 
 			<?php 
-			
 			echo $this->Html->link('Index', '/posts');
 			echo $this->Html->tag('span','&nbsp');
 			echo $this->Html->link('Add Post',array('controller' => 'posts', 'action' => 'add')); 
@@ -52,7 +51,6 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 			echo $this->Html->link('Logout', array('controller'=>'users','action'=>'logout'));
 			echo $this->Html->tag('span','&nbsp');
 			//echo $loggedIn;
-			echo $this->Html->tag('span','&nbsp');
 			?>
 		</div>
 		<div id="content">
