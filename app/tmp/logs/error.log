@@ -1,0 +1,917 @@
+2021-03-28 22:51:32 Error: [ParseError] syntax error, unexpected token "public", expecting end of file
+Request URL: /cakeblog/posts
+Stack Trace:
+#0 [internal function]: App::load('PostsController')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(266): class_exists('PostsController')
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-03-28 22:51:51 Error: [ParseError] syntax error, unexpected token "public", expecting end of file
+Request URL: /cakeblog/posts
+Stack Trace:
+#0 [internal function]: App::load('PostsController')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(266): class_exists('PostsController')
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-03-28 23:06:57 Error: [ParseError] syntax error, unexpected token "public", expecting end of file
+Request URL: /cakeblog/
+Stack Trace:
+#0 [internal function]: App::load('PostsController')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(266): class_exists('PostsController')
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-03-28 23:06:57 Error: [ParseError] syntax error, unexpected token "public", expecting end of file
+Request URL: /cakeblog/
+Stack Trace:
+#0 [internal function]: App::load('PostsController')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(266): class_exists('PostsController')
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-03-28 23:06:57 Error: [ParseError] syntax error, unexpected token "public", expecting end of file
+Request URL: /cakeblog/
+Stack Trace:
+#0 [internal function]: App::load('PostsController')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(266): class_exists('PostsController')
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-03-28 23:06:57 Error: [ParseError] syntax error, unexpected token "public", expecting end of file
+Request URL: /cakeblog/
+Stack Trace:
+#0 [internal function]: App::load('PostsController')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(266): class_exists('PostsController')
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-03-28 23:07:38 Error: [Error] Class "BlowfishPasswordHasher" not found
+Request URL: /cakeblog/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\Event\CakeEventManager.php(242): User->beforeSave(Array)
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Model\Model.php(1873): CakeEventManager->dispatch(Object(CakeEvent))
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Model\Model.php(1760): Model->_doSave(Array, Array)
+#3 C:\xampp\htdocs\cakeblog\app\Controller\UsersController.php(41): Model->save(Array)
+#4 [internal function]: UsersController->add()
+#5 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2021-03-28 23:08:17 Error: [Error] Class "BlowfishPasswordHasher" not found
+Request URL: /cakeblog/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\Event\CakeEventManager.php(242): User->beforeSave(Array)
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Model\Model.php(1873): CakeEventManager->dispatch(Object(CakeEvent))
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Model\Model.php(1760): Model->_doSave(Array, Array)
+#3 C:\xampp\htdocs\cakeblog\app\Controller\UsersController.php(41): Model->save(Array)
+#4 [internal function]: UsersController->add()
+#5 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2021-03-28 23:09:05 Error: [Error] Class "BlowfishPasswordHasher" not found
+Request URL: /cakeblog/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\Event\CakeEventManager.php(242): User->beforeSave(Array)
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Model\Model.php(1873): CakeEventManager->dispatch(Object(CakeEvent))
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Model\Model.php(1760): Model->_doSave(Array, Array)
+#3 C:\xampp\htdocs\cakeblog\app\Controller\UsersController.php(41): Model->save(Array)
+#4 [internal function]: UsersController->add()
+#5 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2021-03-28 23:09:08 Error: [Error] Class "BlowfishPasswordHasher" not found
+Request URL: /cakeblog/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\Event\CakeEventManager.php(242): User->beforeSave(Array)
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Model\Model.php(1873): CakeEventManager->dispatch(Object(CakeEvent))
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Model\Model.php(1760): Model->_doSave(Array, Array)
+#3 C:\xampp\htdocs\cakeblog\app\Controller\UsersController.php(41): Model->save(Array)
+#4 [internal function]: UsersController->add()
+#5 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2021-03-28 23:10:59 Error: [MissingViewException] View file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /cakeblog/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(470): View->_getViewFileName('Users\\index')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-03-28 23:11:24 Error: [MissingViewException] View file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /cakeblog/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(470): View->_getViewFileName('Users\\index')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-03-28 23:16:01 Error: [MissingViewException] View file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /cakeblog/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(470): View->_getViewFileName('Users\\index')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-03-28 23:16:45 Error: [MissingViewException] View file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /cakeblog/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(470): View->_getViewFileName('Users\\index')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-03-28 23:18:20 Error: [MissingControllerException] Controller class CakeblogController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblogController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-03-28 23:18:28 Error: [MissingControllerException] Controller class CakeblogController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblogController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-03-28 23:18:37 Error: [MissingControllerException] Controller class CakeblogController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblogController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-03-28 23:18:40 Error: [MissingControllerException] Controller class CakeblogController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblogController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-03-28 23:18:49 Error: [MissingControllerException] Controller class CakeblogController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblogController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-03-28 23:19:23 Error: [MissingControllerException] Controller class CakeblogController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblogController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-03-28 23:19:25 Error: [MissingControllerException] Controller class CakeblogController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblogController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-03-28 23:19:27 Error: [MissingControllerException] Controller class CakeblogController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblogController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-03-29 02:28:54 Error: [MissingHelperException] Helper class HmtlHelper could not be found.
+Exception Attributes: array (
+  'class' => 'HmtlHelper',
+  'plugin' => '',
+)
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Hmtl')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(858): HelperCollection->__isset('Hmtl')
+#2 C:\xampp\htdocs\cakeblog\app\View\Posts\index.ctp(6): View->__get('Hmtl')
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#7 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2021-03-29 02:30:02 Error: [ParseError] syntax error, unexpected variable "$this", expecting "," or ";"
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-03-29 02:32:07 Error: [MissingActionException] Action UsersController::aa() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'aa',
+)
+Request URL: /cakeblog/users/aa
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-03-29 02:32:23 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/user/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-03-29 02:32:39 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/user/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-03-29 02:33:04 Error: [MissingViewException] View file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /cakeblog/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(470): View->_getViewFileName('Users\\index')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-03-29 02:33:38 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /cakeblog/posts/delete/16
+Stack Trace:
+#0 [internal function]: PostsController->delete('16')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-03-29 02:34:56 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /cakeblog/posts/delete/16
+Stack Trace:
+#0 [internal function]: PostsController->delete('16')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-03-29 02:35:19 Error: [MissingControllerException] Controller class CakeblogController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblogController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-03-29 02:35:25 Error: [MissingControllerException] Controller class CakeblogController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblogController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-03-29 02:35:57 Error: [MissingControllerException] Controller class CakeblogController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblogController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-03-29 02:36:15 Error: [MissingControllerException] Controller class CakeblogController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblogController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-03-29 02:36:26 Error: [MissingControllerException] Controller class CakeblogController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblogController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-03-29 02:37:12 Error: [MissingControllerException] Controller class CakeblogController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblogController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-03-29 02:37:17 Error: [MissingControllerException] Controller class CakeblogController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblogController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-03-29 02:37:33 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /cakeblog/posts/delete/22
+Stack Trace:
+#0 [internal function]: PostsController->delete('22')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-03-29 02:37:49 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /cakeblog/posts/delete/22
+Stack Trace:
+#0 [internal function]: PostsController->delete('22')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-03-29 02:38:05 Error: [MissingControllerException] Controller class CakeblogController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblogController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-03-29 02:47:38 Error: [MissingControllerException] Controller class CakeblogController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblogController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-03-29 02:56:04 Error: [MissingControllerException] Controller class CakeblogController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblogController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-03-29 02:56:16 Error: [MissingControllerException] Controller class CakeblogController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblogController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-03-29 02:57:43 Error: [MissingControllerException] Controller class CakeblogController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblogController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-03-29 02:58:01 Error: [MissingControllerException] Controller class CakeblogController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblogController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-03-29 02:58:10 Error: [MissingControllerException] Controller class CakeblogController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblogController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-03-29 02:58:34 Error: [MissingControllerException] Controller class CakeblogController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblogController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-03-29 02:59:13 Error: [MissingControllerException] Controller class CakeblogController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblogController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-03-29 03:03:00 Error: [MissingControllerException] Controller class CakeblogController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblogController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-03-29 03:03:04 Error: [MissingControllerException] Controller class CakeblogController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblogController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-03-29 03:03:06 Error: [MissingControllerException] Controller class CakeblogController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblogController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-03-29 03:03:08 Error: [MissingControllerException] Controller class CakeblogController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblogController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-03-29 03:04:10 Error: [MissingControllerException] Controller class CakeblogController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblogController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-03-29 03:23:34 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => '',
+)
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(858): HelperCollection->__isset('Auth')
+#2 C:\xampp\htdocs\cakeblog\app\View\Posts\index.ctp(21): View->__get('Auth')
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#7 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2021-03-29 03:25:30 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => '',
+)
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(858): HelperCollection->__isset('Auth')
+#2 C:\xampp\htdocs\cakeblog\app\View\Posts\index.ctp(21): View->__get('Auth')
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#7 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2021-03-29 03:25:32 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => '',
+)
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(858): HelperCollection->__isset('Auth')
+#2 C:\xampp\htdocs\cakeblog\app\View\Posts\index.ctp(21): View->__get('Auth')
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#7 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2021-03-29 03:25:36 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => '',
+)
+Request URL: /cakeblog/posts
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(858): HelperCollection->__isset('Auth')
+#2 C:\xampp\htdocs\cakeblog\app\View\Posts\index.ctp(21): View->__get('Auth')
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#7 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2021-03-29 03:25:47 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => '',
+)
+Request URL: /cakeblog/posts
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(858): HelperCollection->__isset('Auth')
+#2 C:\xampp\htdocs\cakeblog\app\View\Posts\index.ctp(21): View->__get('Auth')
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#7 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2021-03-29 03:25:50 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => '',
+)
+Request URL: /cakeblog/posts
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(858): HelperCollection->__isset('Auth')
+#2 C:\xampp\htdocs\cakeblog\app\View\Posts\index.ctp(21): View->__get('Auth')
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#7 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2021-03-29 03:26:09 Error: [MissingHelperException] Helper class HmtlHelper could not be found.
+Exception Attributes: array (
+  'class' => 'HmtlHelper',
+  'plugin' => '',
+)
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Hmtl')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(858): HelperCollection->__isset('Hmtl')
+#2 C:\xampp\htdocs\cakeblog\app\View\Posts\index.ctp(6): View->__get('Hmtl')
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#7 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2021-03-29 03:26:11 Error: [MissingHelperException] Helper class HmtlHelper could not be found.
+Exception Attributes: array (
+  'class' => 'HmtlHelper',
+  'plugin' => '',
+)
+Request URL: /cakeblog/posts
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Hmtl')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(858): HelperCollection->__isset('Hmtl')
+#2 C:\xampp\htdocs\cakeblog\app\View\Posts\index.ctp(6): View->__get('Hmtl')
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#7 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2021-03-29 03:26:11 Error: [MissingHelperException] Helper class HmtlHelper could not be found.
+Exception Attributes: array (
+  'class' => 'HmtlHelper',
+  'plugin' => '',
+)
+Request URL: /cakeblog/posts
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Hmtl')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(858): HelperCollection->__isset('Hmtl')
+#2 C:\xampp\htdocs\cakeblog\app\View\Posts\index.ctp(6): View->__get('Hmtl')
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#7 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2021-03-29 03:28:37 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => '',
+)
+Request URL: /cakeblog/posts
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(858): HelperCollection->__isset('Auth')
+#2 C:\xampp\htdocs\cakeblog\app\View\Posts\index.ctp(9): View->__get('Auth')
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#7 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2021-03-29 03:33:43 Error: [ParseError] syntax error, unexpected token "echo"
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-03-29 03:38:35 Error: [MissingHelperException] Helper class UserHelper could not be found.
+Exception Attributes: array (
+  'class' => 'UserHelper',
+  'plugin' => '',
+)
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('User')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(858): HelperCollection->__isset('User')
+#2 C:\xampp\htdocs\cakeblog\app\View\Layouts\default.ctp(55): View->__get('User')
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(546): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(481): View->renderLayout('<h1>Blog posts<...', 'default')
+#7 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, 'default')
+#8 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#9 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2021-03-29 03:40:35 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => '',
+)
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(858): HelperCollection->__isset('Auth')
+#2 C:\xampp\htdocs\cakeblog\app\View\Layouts\default.ctp(43): View->__get('Auth')
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(546): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(481): View->renderLayout('<h1>Blog posts<...', 'default')
+#7 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, 'default')
+#8 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#9 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2021-03-29 03:40:37 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => '',
+)
+Request URL: /cakeblog/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(858): HelperCollection->__isset('Auth')
+#2 C:\xampp\htdocs\cakeblog\app\View\Layouts\default.ctp(43): View->__get('Auth')
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(546): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(481): View->renderLayout('<h1>Add Post</h...', 'default')
+#7 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, 'default')
+#8 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#9 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2021-03-29 03:44:57 Error: [ParseError] syntax error, unexpected token "echo"
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-03-29 03:45:06 Error: [ParseError] syntax error, unexpected token "echo", expecting "," or ";"
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-03-29 03:47:55 Error: [ParseError] syntax error, unexpected token "echo"
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-03-29 03:49:45 Error: [ParseError] syntax error, unexpected token "echo"
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-03-29 03:49:54 Error: [ParseError] syntax error, unexpected token "<"
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-03-29 03:52:11 Error: [ParseError] syntax error, unexpected token "<"
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-03-29 03:52:51 Error: [ParseError] syntax error, unexpected token "}", expecting "," or ";"
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-03-29 03:53:05 Error: [ParseError] syntax error, unexpected token "endforeach"
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-03-29 03:57:24 Error: [MissingViewException] View file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /cakeblog/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(470): View->_getViewFileName('Users\\index')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-03-29 03:59:18 Error: [MissingViewException] View file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /cakeblog/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(470): View->_getViewFileName('Users\\index')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-03-29 03:59:31 Error: [MissingViewException] View file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /cakeblog/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(470): View->_getViewFileName('Users\\index')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-03-29 03:59:39 Error: [MissingActionException] Action UsersController::posts() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'posts',
+)
+Request URL: /cakeblog/users/posts
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-03-29 04:00:00 Error: [MissingActionException] Action UsersController::posts() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'posts',
+)
+Request URL: /cakeblog/users/posts
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-03-29 04:00:05 Error: [MissingViewException] View file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /cakeblog/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(470): View->_getViewFileName('Users\\index')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
