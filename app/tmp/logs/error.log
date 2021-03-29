@@ -915,3 +915,22 @@ Stack Trace:
 #3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
 #4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2021-03-29 15:29:51 Error: [MissingControllerException] Controller class CakeblogController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblogController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-03-29 15:30:11 Error: [ParseError] Unmatched '}'
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}

@@ -19,7 +19,8 @@ Realização do tutorial Blog utilizando o framework CakePHP
         title VARCHAR(50),
         body TEXT,
         created DATETIME DEFAULT NULL,
-        modified DATETIME DEFAULT NULL
+        modified DATETIME DEFAULT NULL,
+        user_id INT(11)
     );
     ```
 

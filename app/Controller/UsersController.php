@@ -78,9 +78,6 @@ class UsersController extends AppController {
 	}
 
 	public function delete($id = null) {
-        // Prior to 2.5 use
-        // $this->request->onlyAllow('post');
-
 		$this->request->onlyAllow('post');
 
 		$this->User->id = $id;
@@ -97,6 +94,5 @@ class UsersController extends AppController {
 			return $this->redirect(array('action' => 'index'));
 		}
 	}
-
 }
 ?>

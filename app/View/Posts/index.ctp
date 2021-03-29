@@ -3,9 +3,10 @@ $uid = $this->Session->read('Auth.User.id');
 //echo $uid;
 $uname = $this->Session->read('Auth.User.username');
 //echo $uname;
+$urole = $this->Session->read('Auth.User.role');
 ?>
 
-<h1>Bem-Vindo <?= $uname ?></h1>
+<h1>Bem-Vindo <?= $uname ?> Nível de acesso: <?= $urole ?></h1>
 
 <table>
     <tr>
@@ -32,7 +33,7 @@ $uname = $this->Session->read('Auth.User.username');
             <td>
 
                 <?php
-
+                
                 if ($uid === $post['Post']['user_id']) {
                     # code...
                     echo $this->Form->postLink(
@@ -48,6 +49,7 @@ $uname = $this->Session->read('Auth.User.username');
                         array('action' => 'edit', $post['Post']['id'])
                     );
                 }
+                
                 ?>
             </td>
             
