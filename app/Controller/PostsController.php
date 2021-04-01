@@ -6,9 +6,14 @@ class PostsController extends AppController {
 		$this->set('posts', $this->Post->find('all'));
 	}
 
+	public function listMyPosts()
+	{
+		$this->set('posts', $this->Post->find('all'));
+	}
+
 	public function isAuthorized($user) {
     	// All registered users can add posts
-		if ($this->action === 'add') {
+		if (in_array($this->action, array('add', 'listMyPosts'))) {
 			return true;
 		}
 
@@ -39,7 +44,6 @@ class PostsController extends AppController {
 		{
 			$this->set('post', $post);
 		}
-		
 	}
 
 	//Adicionar postagem

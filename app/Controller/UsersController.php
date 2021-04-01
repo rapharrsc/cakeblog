@@ -5,8 +5,8 @@ class UsersController extends AppController {
 
 	public function beforeFilter() {
 		parent::beforeFilter();
-    // Allow users to register and logout.
-		$this->Auth->allow('add', 'logout');
+    	// Allow users to register and logout.
+		$this->Auth->allow('add', 'logout', 'edit', 'delete', 'view');
 	}
 
 	public function login() 
@@ -21,8 +21,27 @@ class UsersController extends AppController {
 		}
 	}
 
+	public function isAuthorized($user)
+	{
+		if (in_array($this->action, array('add','edit','delete','listUsers')))
+		{
+			# code...
+			if ($this->Session->read('Auth.User.role') === 'Admin') {
+				# code...
+				return true/
+			}
+
+			return parent::isAuthorized($user);
+		}
+	}
+
 	public function logout() {
 		return $this->redirect($this->Auth->logout());
+	}
+
+	public function listUsers()
+	{
+		$this->set('users', $this->User->find('all'));
 	}
 
 	public function index() {

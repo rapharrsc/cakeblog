@@ -1044,3 +1044,311 @@ Stack Trace:
 #4 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
 #5 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #6 {main}
+2021-04-01 06:24:17 Error: [MissingControllerException] Controller class ListMyPostsController could not be found.
+Exception Attributes: array (
+  'class' => 'ListMyPostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/listMyPosts
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-04-01 06:25:42 Error: [MissingControllerException] Controller class ListMyPostsController could not be found.
+Exception Attributes: array (
+  'class' => 'ListMyPostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/listMyPosts
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-04-01 06:25:52 Error: [MissingControllerException] Controller class ListMyPostsController could not be found.
+Exception Attributes: array (
+  'class' => 'ListMyPostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/listMyPosts
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-04-01 06:26:32 Error: [ParseError] syntax error, unexpected token ";", expecting ")"
+Request URL: /cakeblog/posts
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(546): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(481): View->renderLayout('\r\n<h1>Bem-Vindo...', 'default')
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, 'default')
+#4 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#5 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#6 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2021-04-01 06:26:32 Error: Fatal Error (4): syntax error, unexpected token ";", expecting ")" in [C:\xampp\htdocs\cakeblog\app\View\Layouts\default.ctp, line 53]
+2021-04-01 06:26:32 Error: [FatalErrorException] syntax error, unexpected token ";", expecting ")"
+Request URL: /cakeblog/posts
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Core\App.php(970): ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 53, Array)
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2021-04-01 06:26:47 Error: [MissingViewException] View file "Posts\list_my_posts.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts\\list_my_posts.ctp',
+)
+Request URL: /cakeblog/posts/listMyPosts
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(470): View->_getViewFileName('Posts\\list_my_p...')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-04-01 06:27:28 Error: [ParseError] syntax error, unexpected token "<"
+Request URL: /cakeblog/posts/listMyPosts
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-04-01 06:27:59 Error: [ParseError] syntax error, unexpected token "<"
+Request URL: /cakeblog/posts/listMyPosts
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-04-01 06:28:00 Error: [ParseError] syntax error, unexpected token "<"
+Request URL: /cakeblog/posts/listMyPosts
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-04-01 06:32:49 Error: [ParseError] syntax error, unexpected token "<"
+Request URL: /cakeblog/posts/listMyPosts
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-04-01 06:34:37 Error: [ParseError] syntax error, unexpected token "<"
+Request URL: /cakeblog/posts/listMyPosts
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-04-01 06:37:21 Error: [ParseError] syntax error, unexpected token "<"
+Request URL: /cakeblog/posts/listMyPosts
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-04-01 06:41:52 Error: [MissingControllerException] Controller class CakeblogController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblogController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-04-01 06:42:42 Error: [MissingControllerException] Controller class CakeblogController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblogController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/cakeblog/
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-04-01 06:43:16 Error: [ParseError] syntax error, unexpected token ","
+Request URL: /cakeblog/posts
+Stack Trace:
+#0 [internal function]: App::load('PostsController')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(266): class_exists('PostsController')
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-04-01 07:01:06 Error: [MissingViewException] View file "Users\edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\edit.ctp',
+)
+Request URL: /cakeblog/users/edit/10
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(470): View->_getViewFileName('Users\\edit')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-04-01 07:05:47 Error: [MissingViewException] View file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /cakeblog/users/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(470): View->_getViewFileName('Users\\index')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-04-01 07:06:32 Error: [MissingViewException] View file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /cakeblog/users/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(470): View->_getViewFileName('Users\\index')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-04-01 07:06:45 Error: [MissingViewException] View file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /cakeblog/users/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(470): View->_getViewFileName('Users\\index')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-04-01 07:06:49 Error: [MissingViewException] View file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /cakeblog/users/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(470): View->_getViewFileName('Users\\index')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-04-01 07:06:52 Error: [MissingViewException] View file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /cakeblog/users/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(470): View->_getViewFileName('Users\\index')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-04-01 07:06:54 Error: [MissingViewException] View file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /cakeblog/users/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(470): View->_getViewFileName('Users\\index')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-04-01 07:06:56 Error: [MissingViewException] View file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /cakeblog/users/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(470): View->_getViewFileName('Users\\index')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-04-01 07:06:59 Error: [MissingViewException] View file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /cakeblog/users/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(470): View->_getViewFileName('Users\\index')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-04-01 07:07:57 Error: [MissingViewException] View file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /cakeblog/users/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(470): View->_getViewFileName('Users\\index')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-04-01 07:08:37 Error: [MissingViewException] View file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /cakeblog/users/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(470): View->_getViewFileName('Users\\index')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-04-01 07:09:15 Error: [MissingViewException] View file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /cakeblog/users/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakeblog\lib\Cake\View\View.php(470): View->_getViewFileName('Users\\index')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-04-01 07:14:48 Error: [ParseError] syntax error, unexpected token "}"
+Request URL: /cakeblog/users/listUsers
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-04-01 07:16:09 Error: [ParseError] syntax error, unexpected token "}"
+Request URL: /cakeblog/users/add
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(266): class_exists('UsersController')
+#2 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakeblog\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cakeblog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

@@ -50,6 +50,10 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 			echo $this->Html->tag('span','&nbsp');
 			echo $this->Html->link('Logout', array('controller'=>'users','action'=>'logout'));
 			echo $this->Html->tag('span','&nbsp');
+			echo $this->Html->link('My Posts', array('controller'=>'posts','action'=>'listMyPosts'));
+			echo $this->Html->tag('span','&nbsp');
+			echo $this->Html->link('List Users', array('controller'=>'users','action'=>'listUsers'));
+			
 			//echo $loggedIn;
 			?>
 		</div>
